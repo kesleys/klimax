@@ -1,10 +1,8 @@
 import React from "react";
 import "./similarfilms.css";
-import { Link } from 'react-router-dom';
 
 function Similarfilms() {
   return (
-    <Link to="/filmes-similares">
     <div className="cardsimilarfilms">
       <div className="imagemdefundosimilar"></div>
       <img
@@ -23,7 +21,6 @@ function Similarfilms() {
         </i>
       </div>
     </div>
-    </Link>
   );
 }
 

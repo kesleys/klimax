@@ -1,10 +1,8 @@
 import React from "react";
 import "./filteredfilms.css";
-import { Link } from 'react-router-dom'
 
 function Filteredfilms() {
   return (
-    <Link to="/filmes-filtros">
     <div className="filteredfilms">
       <div className="imagemdefundofiltered"></div>
       <img
@@ -23,7 +21,6 @@ function Filteredfilms() {
         </i>
       </div>
     </div>
-    </Link>
   );
 }
 
