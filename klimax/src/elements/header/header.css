@@ -26,7 +26,7 @@
   text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/*@media (prefers-reduced-motion: no-preference) {
   .logoKlimax {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -39,4 +39,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
