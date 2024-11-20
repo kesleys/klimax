@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+/*import SimilarFilmsPage from './components/similarFilmspage';
+import FilterfilmPage from './components/Filterpage';
+import SimilarLoadingPage from "./components/similarLoadingpage";
+import SimilarSearchingPage from './components/similarSearchingpage';
+import SimilarFinalRecomendation from "./components/similarfinalRecomendation";*/
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/Homepage" element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+
+
+
+
+      /*<Route path="/filmes-similares" element={<SimilarFilmsPage />} />
+        <Route path="/filmes-filtros" element={<FilterfilmPage />} />
+        <Route path="/procurando-similares" element={<SimilarSearchingPage />} />
+        <Route path="/carregando-similares" element={<SimilarLoadingPage />} />
+        <Route path="/recomendacao-similares" element={<SimilarFinalRecomendation />} /> */
