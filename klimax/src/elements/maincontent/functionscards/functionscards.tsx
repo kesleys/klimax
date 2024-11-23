@@ -6,7 +6,9 @@ function Functionscards() {
   return (
     <div className="functionscards">
        <div className="cards">
-    <img src="https://i.ibb.co/LQkx8Q4/imagem-fundo.png" className="imagemdefundo" />
+    <img src="https://i.ibb.co/LQkx8Q4/imagem-fundo.png"
+    alt="Fundo"
+    className="imagemdefundo" />
       <img
         src="https://i.ibb.co/k0C2H34/Basedfilms-icon.png"
         alt="Filmes Similares"
@@ -24,7 +26,9 @@ function Functionscards() {
       </div>
     </div>
       <div className="cards">
-      <img src="https://i.ibb.co/LQkx8Q4/imagem-fundo.png" className="imagemdefundo" />
+      <img src="https://i.ibb.co/LQkx8Q4/imagem-fundo.png"
+      alt="Fundo"
+       className="imagemdefundo" />
       <img
         src="https://i.ibb.co/L8gDt55/Filtros-icon.png"
         alt="Semelhante aos filmes selecionados"
@@ -41,9 +45,13 @@ function Functionscards() {
         </i>
       </div>
     </div>
+    <nav>
     <Link to="/aleatorios" className="link">
     <div className="cards">
-      <img src="https://i.ibb.co/LQkx8Q4/imagem-fundo.png" className="imagemdefundo" />
+      <img 
+      src="https://i.ibb.co/LQkx8Q4/imagem-fundo.png" 
+      alt="Fundo"
+      className="imagemdefundo" />
       <img
         src="https://i.ibb.co/7GtKkQs/aleatorio-icon.png"
         alt="Semelhante aos filmes selecionados"
@@ -63,6 +71,7 @@ function Functionscards() {
       </div>
     </div>
     </Link>
+    </nav>
     </div>
   );
 }
