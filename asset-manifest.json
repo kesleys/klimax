@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/klimax/static/css/main.f1a63065.css",
-    "main.js": "/klimax/static/js/main.1fe2ccca.js",
+    "main.js": "/klimax/static/js/main.7604804e.js",
     "static/js/453.d83ce7b4.chunk.js": "/klimax/static/js/453.d83ce7b4.chunk.js",
     "index.html": "/klimax/index.html",
     "main.f1a63065.css.map": "/klimax/static/css/main.f1a63065.css.map",
-    "main.1fe2ccca.js.map": "/klimax/static/js/main.1fe2ccca.js.map",
+    "main.7604804e.js.map": "/klimax/static/js/main.7604804e.js.map",
     "453.d83ce7b4.chunk.js.map": "/klimax/static/js/453.d83ce7b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1a63065.css",
-    "static/js/main.1fe2ccca.js"
+    "static/js/main.7604804e.js"
   ]
 }
