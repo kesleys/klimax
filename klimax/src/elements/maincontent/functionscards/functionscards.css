@@ -80,3 +80,7 @@
   letter-spacing: 0.3vh;
   color: rgb(255, 255, 255, 0.65);
 }
+
+.link {
+  text-decoration: none;
+}

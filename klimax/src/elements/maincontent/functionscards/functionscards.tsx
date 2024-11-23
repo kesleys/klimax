@@ -1,5 +1,6 @@
 import React from "react";
 import './functionscards.css';
+import { Link } from "react-router-dom";
 
 function Functionscards() {
   return (
@@ -40,6 +41,7 @@ function Functionscards() {
         </i>
       </div>
     </div>
+    <Link to="/aleatorios" className="link">
     <div className="cards">
       <img src="https://i.ibb.co/LQkx8Q4/imagem-fundo.png" className="imagemdefundo" />
       <img
@@ -60,6 +62,7 @@ function Functionscards() {
         </i>
       </div>
     </div>
+    </Link>
     </div>
   );
 }

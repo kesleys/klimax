@@ -1,11 +1,11 @@
 import React from "react";
-import Homepage from "./pages/Homepage";
+import RoutesApp from "./pages/Routes";
 
 
 function App() {
     return (
         <div>
-            <Homepage />
+            <RoutesApp />
         </div>
     )
 
